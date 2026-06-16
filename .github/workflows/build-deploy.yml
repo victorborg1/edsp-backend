@@ -9,7 +9,7 @@ on:
 env:
   AZURE_WEBAPP_NAME: eigendsp-api
   DOTNET_VERSION: "10.0.x"
-  SOLUTION_PATH: "EigenDSP-Backend.sln"
+  SOLUTION_PATH: "EigenDSP-BackEnd.sln"
   API_PROJECT_PATH: "api/api.csproj"
   PUBLISH_DIR: "./publish"
 

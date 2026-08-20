@@ -12,8 +12,8 @@ using api.Data;
 namespace api.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20260611141435_InitialPostgres")]
-    partial class InitialPostgres
+    [Migration("20260817204008_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -19,7 +19,7 @@ internal class Program
             options.AddPolicy("AllowFrontend", policy =>
             {
                 policy
-                    .WithOrigins("https://edsp-client.vercel.app")
+                    .WithOrigins(builder.Configuration["Frontend:Url"]!)
                     .AllowAnyHeader()
                     .AllowAnyMethod();
             });
